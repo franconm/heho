@@ -30,10 +30,12 @@ scanner.addListener('scan', function (content) {
 // Start scanning
 Instascan.Camera.getCameras().then(function (cameras) {
   if (cameras.length > 0) {
-    // Use the rear camera by default, or specify the desired camera
-    let backCamera = cameras[cameras.length - 1];
-    backCamera.mirror = false;
-    scanner.start(backCamera);
+    // Use the front-facing camera by default, or specify the desired camera
+    let frontCamera = cameras.find(camera => camera.facingMode === 'user');
+    if (!frontCamera) {
+      frontCamera = cameras[0];
+    }
+    scanner.start(frontCamera);
   } else {
     scanner.start(cameras[0]);
     // console.error('No cameras found.');
