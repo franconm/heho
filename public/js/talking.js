@@ -78,29 +78,6 @@ function handleLastClick(array, elementId, redirect) {
     }
 }
 
-// function startSound() {
-//     var fileUrl = '../../model/sound_start.txt';
-
-//     // Create a new Blob with the content "1"
-//     var content = '1';
-//     var blob = new Blob([content], { type: 'text/plain' });
-
-//     // Create a new XMLHttpRequest to upload the Blob
-//     var xhr = new XMLHttpRequest();
-//     xhr.open('PUT', fileUrl, true);
-//     xhr.setRequestHeader('Content-Type', 'text/plain');
-
-//     xhr.onreadystatechange = function () {
-//         if (xhr.readyState === 4 && xhr.status === 200) {
-//             console.log('File saved successfully.');
-//         } else {
-//             console.log('Error while saving the file.');
-//         }
-//     };
-
-//     xhr.send(blob);
-// }
-
 /*========================== CALL THE FUNCTIONS ==============================*/
 getDataFromPHP()
     .then(function (codesState) {
@@ -132,9 +109,6 @@ getDataFromPHP()
 
             nextBtn.addEventListener('click', function () { handleClick(text, "message"); });
             okBtn.addEventListener('click', function () { handleLastClick(text, "message", "choice.php?n=1"); });
-
-            // // enable the sound in Passulurian Room
-            // startSound();
         }
         // ================ TALK 4 =====================  
         else if (nTalk == 4) {

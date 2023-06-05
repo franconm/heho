@@ -40,11 +40,10 @@ require('model/tabletFunction.php');
         <?php } else { ?>
             <img src="public/img/leonard.gif" alt="Léonard de Vinci Illustration">
 
+            <!-- enable sound in Passulurian room -->
             <?php
             $file = 'model/sound_start.txt';
             $data = 1;
-
-            // Ajouter les données au fichier
             file_put_contents($file, $data);
             ?>
         <?php } ?>
