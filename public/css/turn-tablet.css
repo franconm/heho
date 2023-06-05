@@ -1,0 +1,21 @@
+#turn-tablet {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url('../img/texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 100;
+}
+#turn-tablet h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--brown);
+}

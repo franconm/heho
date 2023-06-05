@@ -1,0 +1,47 @@
+main {
+    text-align: center;
+}
+main img {
+    aspect-ratio: 1/1;
+    width: 270px;
+
+    mix-blend-mode: multiply;
+    animation: StartButton 2s linear infinite; 
+}
+#start-btn {
+    display: block;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 40px;
+    background-color: var(--blue);
+
+    padding: 20px;
+    margin-top: 40px;
+    animation: StartButton 2s linear infinite; 
+}
+
+
+
+
+/* Animations */
+@keyframes StartButton {
+    0% {
+      transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(3px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }

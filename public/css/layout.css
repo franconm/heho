@@ -1,0 +1,40 @@
+html, body {
+    overflow: hidden;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../img/texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--brown);
+
+    max-width: 50vw;
+    margin: auto;
+
+    padding-bottom: 50px;
+}
+main h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--brown);
+
+    max-width: 50vw;
+    margin: auto;
+
+    padding-bottom: 50px;
+}
