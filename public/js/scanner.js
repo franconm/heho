@@ -32,6 +32,7 @@ Instascan.Camera.getCameras().then(function (cameras) {
   if (cameras.length > 0) {
     // Use the rear camera by default, or specify the desired camera
     let backCamera = cameras[cameras.length - 1];
+    backCamera.mirror = true;
     scanner.start(backCamera);
   } else {
     scanner.start(cameras[0]);
