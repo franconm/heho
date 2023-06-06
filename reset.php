@@ -26,6 +26,7 @@ ini_set('session.gc_divisor', 1);
 session_destroy();
 ?>
 
+<!-- clear local storage -->
 <script>
     localStorage.clear();
 </script>
