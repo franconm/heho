@@ -9,7 +9,8 @@ var nScan = urlParams.get('n');
 
 /* ======================= QR CODE SCANNER ============================== */
 // Create a scanner instance
-let scanner = new Instascan.Scanner({ video: document.getElementById('scanner-video') });
+let scanner = new Instascan.Scanner({ video: document.getElementById('scanner-video'), mirror: false });
+// let scanner = new Instascan.Scanner({ video: document.getElementById('scanner-video') });
 
 // Add a scan event listener
 scanner.addListener('scan', function (content) {
@@ -30,16 +31,20 @@ scanner.addListener('scan', function (content) {
 // Start scanning
 Instascan.Camera.getCameras().then(function (cameras) {
   if (cameras.length > 0) {
-    // Use the front-facing camera by default, or specify the desired camera
-    let frontCamera = cameras.find(camera => camera.facingMode === 'user');
-    if (!frontCamera) {
-      frontCamera = cameras[0];
+    let backCamera = cameras.find(camera => camera.name.toLowerCase().includes('back'));
+    if (!backCamera) {
+      // Handle the case when a back camera is not found
+      console.error('Back camera not found!');
+    } else {
+      scanner.start(backCamera);
     }
-    scanner.start(frontCamera);
   } else {
-    scanner.start(cameras[0]);
-    // console.error('No cameras found.');
+    // Handle the case when no cameras are found
+    console.error('No cameras found!');
   }
 }).catch(function (error) {
-  console.error(error);
+  // Handle any errors that occur during camera detection
+  console.error('Error detecting cameras:', error);
 });
+
+
