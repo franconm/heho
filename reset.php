@@ -26,6 +26,10 @@ ini_set('session.gc_divisor', 1);
 session_destroy();
 ?>
 
+<script>
+    localStorage.clear();
+</script>
+
 
 <?php
 // reset files of IOT variables
