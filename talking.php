@@ -20,6 +20,7 @@ require('model/tabletFunction.php');
     <link rel="stylesheet" href="public/css/color.css">
     <link rel="stylesheet" href="public/css/turn-tablet.css">
     <link rel="stylesheet" href="public/css/side-bar.css">
+    <link rel="stylesheet" href="public/css/clues.css">
     <link rel="stylesheet" href="public/css/talking.css">
 
     <!-- JS -->

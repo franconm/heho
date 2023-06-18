@@ -24,7 +24,9 @@ main img {
     animation: StartButton 2s linear infinite; 
 }
 
-
+#get-clues {
+    display: none;
+}
 
 
 /* Animations */

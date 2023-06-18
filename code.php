@@ -24,6 +24,7 @@ checkCode($_SESSION['codes'][$_GET["n"] - 1]);
     <link rel="stylesheet" href="public/css/turn-tablet.css">
     <link rel="stylesheet" href="public/css/side-bar.css">
     <link rel="stylesheet" href="public/css/waiting.css">
+    <link rel="stylesheet" href="public/css/clues.css">
     <link rel="stylesheet" href="public/css/form.css">
 
     <!-- JS -->
