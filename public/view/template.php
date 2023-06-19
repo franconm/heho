@@ -73,6 +73,12 @@
                 <div class="toggle-button">HDMI <img src="public/icon/arrow_down.svg"></div>
                 <div class="toggle-content">Il y anguille sous ROCHE…</div>
             </div>
+            <div class="toggle-container">
+                <div class="toggle-button">NUKE <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-content">
+                    <img src="public/img/clues/code_maze.png">
+                </div>
+            </div>
         </div>
         <button id="close-btn">Fermer</button>
     </div>
