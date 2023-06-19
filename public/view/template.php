@@ -25,39 +25,39 @@
         <h3>Indices</h3>
         <div>
             <div class="toggle-container">
-                <div class="toggle-button">OKLM <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> OKLM</div>
                 <div class="toggle-content">Mendeleïev indique que les éléments S et Gm sont utiles</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">TGV1 <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> TGV1</div>
                 <div class="toggle-content">Superposer pour retrouver le chemin</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">TGV2 <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> TGV2</div>
                 <div class="toggle-content">La main droite de l'homme aux dimensions parfaites vous indique la route à
                     suivre
                 </div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">LOL1 <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> LOL1</div>
                 <div class="toggle-content">La maison du chef se trouve dans la partie droite du plan</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">LOL2 <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> LOL2</div>
                 <div class="toggle-content">La maison du chef se situe en dessous de la maison champignon</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">PTDR <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> PTDR</div>
                 <div class="toggle-content">Regardez le calendrier et les mois de l'année</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">RVBO <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> RVBO</div>
                 <div class="toggle-content">Un chiffre est indiqué sur la plaque, cherchez une explication sur la carte
                     de
                     la
@@ -65,16 +65,16 @@
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">MSKN <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> MSKN</div>
                 <div class="toggle-content">Scannez le logo type Hiro</div>
             </div>
 
             <div class="toggle-container">
-                <div class="toggle-button">HDMI <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> HDMI</div>
                 <div class="toggle-content">Il y anguille sous ROCHE…</div>
             </div>
             <div class="toggle-container">
-                <div class="toggle-button">NUKE <img src="public/icon/arrow_down.svg"></div>
+                <div class="toggle-button"><img src="public/icon/arrow_down.svg"> NUKE</div>
                 <div class="toggle-content">
                     <img src="public/img/clues/code_maze.png">
                 </div>

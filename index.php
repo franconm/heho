@@ -1,8 +1,8 @@
 <?php
 require('model/session.php');
 // ========== Definition of codes =============
-$_SESSION['codes'] = [1503, 2635, 1507, 7373];
-$_SESSION['codes_state'] = [false, false, false, false];
+$_SESSION['codes'] = [1503, 2635, 1507, 7373, 1250];
+$_SESSION['codes_state'] = [false, false, false, false, false];
 $_SESSION['relique_finale'] = false;
 
 require('model/tabletFunction.php');

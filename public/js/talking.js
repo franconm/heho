@@ -167,7 +167,7 @@ getDataFromPHP()
             var text = splitText(txt_dict.ldv6, 250);
             typeWriter(text[0], "message", 20);
 
-            okBtn.addEventListener('click', function () { handleLastClick(text, "message", "waiting.php"); });
+            okBtn.addEventListener('click', function () { handleLastClick(text, "message", "code.php?n=5"); });
         }
     })
     .catch(function (error) {

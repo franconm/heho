@@ -18,6 +18,8 @@ function checkCode($right_code)
                 header('Location: talking.php?n=5');
             } else if ($_GET["n"] == 4) {
                 header('Location: talking.php?n=8');
+            } else if ($_GET["n"] == 5) {
+                header('Location: result.php');
             }
         } else {
             echo "<script>alert('Code non approuvé, veuillez réessayez !');</script>";
